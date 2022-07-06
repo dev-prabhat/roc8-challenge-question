@@ -10,9 +10,11 @@ export const Product = ({product:{img,price,brand,size}}) => {
                 alt="black_jacket"
               />
             </div>
-            <p className="text-md">Price:{price}</p>
-            <p className="text-sm">Brand:{brand}</p>
-            <p className="text-sm">Available in Size: {size}</p>
+            <div className="padding-xs">
+              <p className="text-md">Price:{price}</p>
+              <p className="text-sm">Brand:{brand}</p>
+              <p className="text-sm">Available in Size: {size}</p>
+            </div>
         </div>
     )
 }

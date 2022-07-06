@@ -2,6 +2,7 @@
     grid-area: side-bar;
     border: 1px solid red;
     padding: 0.5rem;
+    height: 100vh;
 }
 
 .d__flex{
