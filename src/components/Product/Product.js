@@ -1,6 +1,8 @@
+import ProductCSS from "./product.module.css"
+
 export const Product = ({product:{img,price,brand,size}}) => {
     return(
-        <div className="padding-sm margin-xs">
+        <div className={ProductCSS.product__card}>
              <div className="width-2xl height-2xl">
               <img
                 className="img-responsive"

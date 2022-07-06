@@ -1,0 +1,4 @@
+.product__card{
+    box-shadow: 0 0 10px 5px var(--dark-theme-shade-80);
+    margin: 1.5rem;
+}
