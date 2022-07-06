@@ -1,0 +1,17 @@
+.side__bar{
+    grid-area: side-bar;
+    border: 1px solid red;
+    padding: 0.5rem;
+}
+
+.d__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.label__css{
+    margin: 0.5rem;
+    cursor: pointer;
+}
